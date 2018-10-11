@@ -1,0 +1,15 @@
+@import './mixin.scss';
+@import './color.scss';
+
+// 按钮
+.msbutton {
+    @include transition;
+    text-align: center;
+    cursor: pointer;
+    &:hover, &.active {
+        color: $color-primary;
+    }
+    &:active {
+        color: darken($color-primary, 20%);
+    }
+}

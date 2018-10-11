@@ -1,0 +1,12 @@
+// 过渡
+@mixin transition {
+    transition: all ease-out .15s;
+}
+
+// 全屏
+@mixin fullscreen {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
